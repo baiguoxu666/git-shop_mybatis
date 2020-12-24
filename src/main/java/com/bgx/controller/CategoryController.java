@@ -14,21 +14,23 @@ public class CategoryController {
     private CategoryService cs;
 
     @RequestMapping("query")
-    public String query(Integer id){
+    public String query(Integer id) {
         System.out.println(cs.queryById(id));
         return null;
     }
 
 
     @RequestMapping("save")
-    public String save(Category category, Integer parentId){
+    public String save(Category category, Integer parentId) {
 
         try {
-            cs.save(category,parentId);
+            cs.save(category, parentId);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("这是master分支");
-        return null;
+            System.out.println("这是master分支");
+            System.out.println("这是dev分支");
+            return null;
+        }
     }
-}
+
