@@ -29,9 +29,11 @@ public class CategoryController {
             e.printStackTrace();
         }
             System.out.println("这是master分支");
-            System.out.println("这是dev分支");
-			 System.out.println("这是第三次提交");
-	    System.out.println("这是第六次提交");
+            System.out.println("这是dev分支");			 
+			System.out.println("这是第三次提交");
+	    System.out.println("这是第六次提交")
+            System.out.println("这是第三次提交");
+            System.out.println("这是第四次提交");
             return null;
         }
     }
