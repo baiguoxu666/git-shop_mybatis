@@ -28,6 +28,7 @@ public class CategoryController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        System.out.println("这是master分支");
         return null;
     }
 }
