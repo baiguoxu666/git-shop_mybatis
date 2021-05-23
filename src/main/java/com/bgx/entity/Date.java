@@ -10,13 +10,16 @@ public class Date {
     private Date minute;
     private Date seconds;
 
+
     public Date getHour() {
         return hour;
     }
 
+
     public void setHour(Date hour) {
         this.hour = hour;
     }
+
 
     public Date getMinute() {
         return minute;
@@ -34,6 +37,12 @@ public class Date {
         this.seconds = seconds;
     }
 
+    public Date(Date hour, Date minute, Date seconds) {
+        this.hour = hour;
+        this.minute = minute;
+        this.seconds = seconds;
+    }
+
     @Override
     public String toString() {
         return "Date{" +
@@ -41,5 +50,8 @@ public class Date {
                 ", minute=" + minute +
                 ", seconds=" + seconds +
                 '}';
+    }
+
+    public Date() {
     }
 }
