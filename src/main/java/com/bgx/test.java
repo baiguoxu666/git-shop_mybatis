@@ -9,5 +9,7 @@ public class test {
     public static void main(String[] args) {
         System.out.println("克隆下来的项目添加");
         System.out.println("往码云上上传");
+
+        System.out.println("测试码云ssh上传");
     }
 }
