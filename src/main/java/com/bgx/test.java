@@ -19,6 +19,7 @@ public class test {
         System.out.println("远程修改了二次");
 
         System.out.println("本地提交了一次");
+        System.out.println("本地提交了二次");
 
     }
 }
