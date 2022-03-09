@@ -11,5 +11,6 @@ public class test {
         System.out.println("往码云上上传");
 
         System.out.println("测试码云ssh上传");
+        System.out.println("提交了一次");
     }
 }
