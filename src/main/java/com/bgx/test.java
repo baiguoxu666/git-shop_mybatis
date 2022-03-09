@@ -18,5 +18,6 @@ public class test {
         System.out.println("本地写三次");
 
 
+        System.out.println("远程修改了一次");
     }
 }
