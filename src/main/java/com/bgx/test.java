@@ -19,5 +19,6 @@ public class test {
 
 
         System.out.println("远程修改了一次");
+        System.out.println("远程修改了二次");
     }
 }
