@@ -24,6 +24,7 @@ public class test {
 
         System.out.println("dev分支提交");
         System.out.println("今天dev分支提交");
+        System.out.println("修复了线上的bug");
 
     }
 }
