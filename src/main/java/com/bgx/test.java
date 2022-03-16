@@ -23,6 +23,7 @@ public class test {
         System.out.println("本地提交了二次");
 
         System.out.println("已经修复了线上的bug");
+        System.out.println("master合并了bugfix");
 
     }
 }
