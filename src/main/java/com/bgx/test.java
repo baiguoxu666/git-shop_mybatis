@@ -22,9 +22,7 @@ public class test {
         System.out.println("本地提交了一次");
         System.out.println("本地提交了二次");
 
-        System.out.println("dev分支提交");
-        System.out.println("今天dev分支提交");
-        System.out.println("修复了线上的bug");
+        System.out.println("已经修复了线上的bug");
 
     }
 }
