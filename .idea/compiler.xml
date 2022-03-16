@@ -10,7 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shop_mybatis" target="1.7" />
+      <module name="my-jenkins" target="1.8" />
+      <module name="shop_mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

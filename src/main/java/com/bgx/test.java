@@ -23,5 +23,7 @@ public class test {
         System.out.println("本地提交了二次");
 
         System.out.println("dev分支提交");
+        System.out.println("今天dev分支提交");
+
     }
 }
